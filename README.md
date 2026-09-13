@@ -13,4 +13,12 @@ A Qt/QML based speedometer dashboard for automotive applications. It features a 
 
 ---
 
+### 2. [Biceps Curl Trainer Qt/QML](BicepsCurlTrainer/)
+
+A Qt 6/QML workout training app focused on biceps curls. It includes C++ workout-state logic, interactive arm animation, manual and guided movement controls, rep/round tracking, progress visualization, and set history.
+
+- **Local Path**: `BicepsCurlTrainer/`
+
+---
+
 _This is a future collection of my Qt development journey._
