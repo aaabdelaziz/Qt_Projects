@@ -86,7 +86,7 @@ Q_INVOKABLE void stopArm();
 The guided curl is a periodic movement:
 
 ```mermaid
-flowchart LR
+graph LR
     A[0%: arm extended] --> B[45%: curl up complete]
     B --> C[62%: squeeze complete]
     C --> D[100%: lowered back to extension]

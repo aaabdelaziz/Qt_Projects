@@ -47,7 +47,7 @@ Reusable components live in `qml/`.
 ## Data Flow
 
 ```mermaid
-flowchart TD
+graph TD
     A[User action or QTimer] --> B[BicepsWorkoutController]
     B --> C[Update domain state]
     C --> D[Emit Qt signals]
