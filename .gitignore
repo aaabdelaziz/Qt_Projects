@@ -1,5 +1,12 @@
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
+.DS_Store
+**/.DS_Store
+build/
+**/build/
+.qtcreator/
+**/.qtcreator/
+
 #launch.json folder
 .vscode/
 #Cache folder

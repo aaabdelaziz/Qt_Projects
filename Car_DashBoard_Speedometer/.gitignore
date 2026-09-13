@@ -1,0 +1,32 @@
+# C++ build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Qt Creator specific files
+*.user
+*.user.*
+.qtcreator/
+
+# Build directory
+build/
+build-*/
+
+# macOS system files
+.DS_Store
+
+# Version control
+.git/
