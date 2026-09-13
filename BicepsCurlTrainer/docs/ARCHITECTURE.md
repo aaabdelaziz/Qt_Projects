@@ -9,6 +9,12 @@ The project is split into two layers:
 
 QML never calculates workout state. It reads properties from C++ and calls invokable C++ methods when the user presses controls.
 
+## Application Output
+
+![Biceps Curl Trainer ready state](../assets/screenshots/biceps_trainer_ready.png)
+
+The UI is organized around three product areas: the left-side muscle visualization and coaching feedback, the central motion/metric area, and the right-side training controls and set history.
+
 ## C++ Backend
 
 `BicepsWorkoutController` owns:

@@ -4,11 +4,10 @@ This repository contains a collection of Qt and QML projects developed for vario
 
 ## Projects
 
-### 1.[Car DashBoard Speedometer](Car_DashBoard_Speedometer/)
+### 1. [Car DashBoard Speedometer](https://github.com/aaabdelaziz/Qt_Projects/blob/main/Car_DashBoard_Speedometer)
 
 A Qt/QML based speedometer dashboard for automotive applications. It features a realistic gauge interface with smooth animations and different speed level visualizations.
 
-- **GitHub Repository**: [https://github.com/aaabdelaziz/Car_DashBoard_Speedometer](https://github.com/aaabdelaziz/Car_DashBoard_Speedometer)
 - **Local Path**: `Car_DashBoard_Speedometer/`
 
 ---

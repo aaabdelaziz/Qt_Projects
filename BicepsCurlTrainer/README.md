@@ -2,6 +2,16 @@
 
 A professional one-muscle training app built with Qt 6, QML, and modern C++. The app focuses on biceps curl training with animated interactive visuals, guided/manual modes, form scoring, rep/set tracking, load control, and coaching cues.
 
+## Demo Output
+
+![Biceps Curl Trainer animated demo](assets/screenshots/biceps_trainer_demo.gif)
+
+The demo shows the real application output: biceps heat-map feedback, manual elbow movement, load controls, completed-push counters, and the training control panel.
+
+| Ready State | Active Training |
+| :---: | :---: |
+| ![Biceps Curl Trainer ready state](assets/screenshots/biceps_trainer_ready.png) | ![Biceps Curl Trainer active training state](assets/screenshots/biceps_trainer_overview.png) |
+
 ## Features
 
 - Animated biceps curl motion view drawn with QML Canvas.
@@ -92,11 +102,15 @@ BicepsCurlTrainer_QtQml/
 │   ├── SetHistoryList.qml
 │   └── TempoTimeline.qml
 ├── assets/
-│   └── biceps_curl_reference.png
+│   ├── biceps_curl_reference.png
+│   └── screenshots/
+│       ├── biceps_trainer_demo.gif
+│       ├── biceps_trainer_ready.png
+│       └── biceps_trainer_overview.png
 └── docs/
     ├── ARCHITECTURE.md
     ├── LEARNING_GUIDE.md
-    └── INTERVIEW_TALK_TRACK.md
+    └── PROJECT_OVERVIEW.md
 ```
 
 ## Learning Path
@@ -105,11 +119,12 @@ Read these files in order:
 
 1. [docs/LEARNING_GUIDE.md](docs/LEARNING_GUIDE.md)
 2. [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-3. [biceps_workout_controller.h](biceps_workout_controller.h)
-4. [biceps_workout_controller.cpp](biceps_workout_controller.cpp)
-5. [Main.qml](Main.qml)
-6. [qml/PhotoMuscleOverlay.qml](qml/PhotoMuscleOverlay.qml)
-7. [qml/CurlMotionView.qml](qml/CurlMotionView.qml)
+3. [docs/PROJECT_OVERVIEW.md](docs/PROJECT_OVERVIEW.md)
+4. [biceps_workout_controller.h](biceps_workout_controller.h)
+5. [biceps_workout_controller.cpp](biceps_workout_controller.cpp)
+6. [Main.qml](Main.qml)
+7. [qml/PhotoMuscleOverlay.qml](qml/PhotoMuscleOverlay.qml)
+8. [qml/CurlMotionView.qml](qml/CurlMotionView.qml)
 
 ## Main Engineering Idea
 

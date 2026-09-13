@@ -18,6 +18,12 @@ CMAKE_PREFIX_PATH=/Users/ahmedabdelaziz/MyBrain/Qt/6.10.2/macos
 
 ## 2. Use The App
 
+Start by looking at the application output in the README:
+
+![Biceps Curl Trainer animated demo](../assets/screenshots/biceps_trainer_demo.gif)
+
+The animation shows the relationship between the photo heat map, the elbow-angle visualization, the manual controls, and the completed-push counters.
+
 1. Press **Start**.
 2. Watch the curl animation move through curl up, squeeze, and lower slow phases.
 3. Set **Rounds** and **Pushes** before training.
@@ -114,6 +120,10 @@ Connections {
 ```
 
 ## 6. Understand The Visuals
+
+The visual target for this section is shown in the app screenshot:
+
+![Biceps Curl Trainer active training state](../assets/screenshots/biceps_trainer_overview.png)
 
 Open `qml/PhotoMuscleOverlay.qml` first.
 
